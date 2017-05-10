@@ -22,7 +22,10 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_center"
+			position: "top_center",
+			config: {
+				timeFormat: 12
+			}
 		},
 
 		/*{
