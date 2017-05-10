@@ -41,19 +41,7 @@ var config = {
 		},*/
 		{
 			module: "octomirror-module",
-			position: "upper_third",
-		},
-		{
-			module: "octomirror-module",
-			position: "upper_third",
-		},
-		{
-			module: "octomirror-module",
-			position: "upper_third",
-		},
-		{
-			module: "octomirror-module",
-			position: "upper_third",
+			position: "middle_center",
 		},
 	]
 

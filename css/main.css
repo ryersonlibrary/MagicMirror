@@ -1,4 +1,5 @@
 html {
+  cursor: none;
   overflow: hidden;
   background: #000;
 }
@@ -216,7 +217,10 @@ sup {
 
 .region.upper.third {
   top: 33%;
-  float: left;
+}
+
+.region.middle.center {
+  top: 50%;
 }
 
 .region.lower.third {
@@ -237,7 +241,3 @@ sup {
   border-collapse: separate;
 }
 
-.octomirror-module {
-  float: left;
-  width: 25%;
-}
