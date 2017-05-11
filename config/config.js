@@ -27,6 +27,15 @@ var config = {
 				timeFormat: 12
 			}
 		},
+		{
+			module: "octomirror-module",
+			position: "middle_center",
+			url: "http://192.168.1.19:8080/?action=stream"
+		},
+		{
+			module: "compliments",
+			position: "bottom_bar",
+		},
 
 		/*{
 			module: "newsfeed",
@@ -42,11 +51,6 @@ var config = {
 				showPublishDate: true
 			}
 		},*/
-		{
-			module: "octomirror-module",
-			position: "middle_center",
-			url: "http://192.168.1.19:8080/?action=stream"
-		},
 	]
 
 };
