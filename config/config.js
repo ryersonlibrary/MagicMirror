@@ -30,7 +30,9 @@ var config = {
 		{
 			module: "octomirror-module",
 			position: "middle_center",
-			url: "http://192.168.1.19:8080/?action=stream"
+			config: {
+				url: "http://192.168.1.19"
+			}
 		},
 		{
 			module: "compliments",

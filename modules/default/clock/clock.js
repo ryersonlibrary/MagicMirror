@@ -57,7 +57,6 @@ Module.register("clock",{
 		/************************************
 		 * Create wrappers for DIGITAL clock
 		 */
-
 		var dateWrapper = document.createElement("div");
 		var timeWrapper = document.createElement("div");
 		var secondsWrapper = document.createElement("sup");
