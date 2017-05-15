@@ -6,7 +6,7 @@
 
 var config = {
 	port: 8080,
-	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"], // Set [] to allow all IP addresses.
+	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "192.168.15.1"], // Set [] to allow all IP addresses.
 
 	language: "en",
 	timeFormat: 24,
@@ -31,7 +31,8 @@ var config = {
 			module: "octomirror-module",
 			position: "middle_center",
 			config: {
-				url: "http://192.168.1.19"
+				url: "http://192.168.1.19",
+				api_key: "A5C80638301E4DE094B376ED148B80EE"
 			}
 		},
 		{
