@@ -32,7 +32,7 @@ var config = {
 			position: "middle_center",
 			config: {
 				url: "http://192.168.1.19",
-				api_key: "A5C80638301E4DE094B376ED148B80EE"
+				api_key: "2000F6A235AC4540AA274AF8B93D6C4D"
 			}
 		},
 		{
