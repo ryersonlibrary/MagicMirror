@@ -6,7 +6,7 @@
 
 var config = {
 	port: 8080,
-	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "192.168.15.1"], // Set [] to allow all IP addresses.
+	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"], // Set [] to allow all IP addresses.
 
 	language: "en",
 	timeFormat: 24,
@@ -32,7 +32,7 @@ var config = {
 			position: "middle_center",
 			config: {
 				url: "http://192.168.1.19",
-				api_key: "2000F6A235AC4540AA274AF8B93D6C4D"
+				api_key: ""
 			}
 		},
 		{
